@@ -1,0 +1,84 @@
+(footprint
+"C4_C0805"
+(version 20260206)
+(generator "pcbnew")
+(generator_version "10.0")
+(layer "F.Cu")
+(property
+  "Reference"
+  "C4"
+  (at 0 3 180)
+  (layer "F.Fab")
+  (uuid "133ef316-ba32-4a48-b734-072f1f832f40")
+  (effects
+    (font
+      (size 1 1)
+      (thickness 0.15))))
+(property
+  "Value"
+  "100nF 50V X7R"
+  (at 0 -3 180)
+  (layer "F.Fab")
+  (uuid "e70c9ab2-5caf-4d2b-8096-a3649264a5d5")
+  (effects
+    (font
+      (size 0.8 0.8)
+      (thickness 0.12))))
+(property
+  "Datasheet"
+  ""
+  (at 0 0 180)
+  (layer "B.Fab")
+  (hide yes)
+  (uuid "7a8fc7be-3686-41ac-abfd-2a40a9ad6fbb")
+  (effects
+    (font
+      (size 1.27 1.27))
+    (justify mirror)))
+(property
+  "Description"
+  ""
+  (at 0 0 180)
+  (layer "B.Fab")
+  (hide yes)
+  (uuid "f99d9c9b-7806-4345-8b0c-95aadb120f1a")
+  (effects
+    (font
+      (size 1.27 1.27))
+    (justify mirror)))
+(attr smd)
+(duplicate_pad_numbers_are_jumpers no)
+(fp_rect
+  (start -1.2 0.8)
+  (end 1.2 -0.8)
+  (stroke
+    (width 0.1)
+    (type default))
+  (fill no)
+  (layer "F.Fab")
+  (uuid "c51b0da8-e8a1-4226-aa46-2ab9ce79abf4"))
+(pad
+  "1"
+  smd
+  rect
+  (at -0.95 0)
+  (size 1.1 1.4)
+  (layers "F.Cu" "F.Mask" "F.Paste")
+  (uuid "8e9cce6e-ac9d-4134-8d72-6819b1706db1"))
+(pad
+  "2"
+  smd
+  rect
+  (at 0.95 0)
+  (size 1.1 1.4)
+  (layers "F.Cu" "F.Mask" "F.Paste")
+  (uuid "4414a294-68e4-4cd9-b941-601ac02ffb1e"))
+(embedded_fonts no)
+(model
+  "${KIPRJMOD}/Libs/models3d/C_0805_2012Metric.step"
+  (offset
+    (xyz 0 0 0))
+  (scale
+    (xyz 1 1 1))
+  (rotate
+    (xyz 0 0 0))))

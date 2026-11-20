@@ -1,0 +1,14 @@
+V20　板间连接器　/　每台各 1 个
+2026-11-20 01:18（北京时间）页面快照，两款的销售单位均为 5 个的倍数。库存会变化，可按立创编号直接搜索。
+
+MAIN　J2　直角公针　正面
+金航标 KH-2.54PH90-1X14P-L13.8　　C2905430　　页面库存 20 个
+https://item.szlcsc.com/3175218.html
+https://datasheet.lcsc.com/datasheet/pdf/6d26e9776e9dbb9a3dbfce9f7b25db9a.pdf?productCode=C2905430
+
+UI　J101　直排母　背面
+金航标 KH-2.54FH-1X14P-H8.5　　C2905420　　页面库存 8904 个
+https://item.szlcsc.com/3175194.html
+https://datasheet.lcsc.com/datasheet/pdf/0b31327ce0ac069e744af005bd6b34e8.pdf?productCode=C2905420
+
+核对尺寸　1×14，中心距 2.54 mm，用 Ø1.02 mm 焊盘孔；首针至末针中心 33.02 mm。公件为出厂反弯针，插接边露出 6.0 ± 0.2 mm，0.64 mm 方针，印制板侧焊尾 3.0 ± 0.2 mm；母座高 8.5 ± 0.15 mm。KiCad 的两个 STEP 模型按这两份规格书重建，其中母座内部弹片为示意。

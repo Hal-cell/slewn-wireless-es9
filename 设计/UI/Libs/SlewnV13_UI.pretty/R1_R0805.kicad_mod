@@ -1,0 +1,84 @@
+(footprint
+"R1_R0805"
+(version 20260206)
+(generator "pcbnew")
+(generator_version "10.0")
+(layer "F.Cu")
+(property
+  "Reference"
+  "R1"
+  (at 0 3 180)
+  (layer "F.Fab")
+  (uuid "1427bab1-d643-462f-b0b3-caa85e056ce5")
+  (effects
+    (font
+      (size 1 1)
+      (thickness 0.15))))
+(property
+  "Value"
+  "10k 1% 0805"
+  (at 0 -3 180)
+  (layer "F.Fab")
+  (uuid "34c27761-bab4-4a5f-9843-791e63b7b3ce")
+  (effects
+    (font
+      (size 0.8 0.8)
+      (thickness 0.12))))
+(property
+  "Datasheet"
+  ""
+  (at 0 0 180)
+  (layer "B.Fab")
+  (hide yes)
+  (uuid "354112e4-a727-44a3-b7a7-2523f0f5f0d3")
+  (effects
+    (font
+      (size 1.27 1.27))
+    (justify mirror)))
+(property
+  "Description"
+  ""
+  (at 0 0 180)
+  (layer "B.Fab")
+  (hide yes)
+  (uuid "029150ad-08df-4667-8077-56244f103ca2")
+  (effects
+    (font
+      (size 1.27 1.27))
+    (justify mirror)))
+(attr smd)
+(duplicate_pad_numbers_are_jumpers no)
+(fp_rect
+  (start -1.2 0.8)
+  (end 1.2 -0.8)
+  (stroke
+    (width 0.1)
+    (type default))
+  (fill no)
+  (layer "F.Fab")
+  (uuid "54c4716d-ead7-49b1-91f7-da12221f5f68"))
+(pad
+  "1"
+  smd
+  rect
+  (at -0.95 0)
+  (size 1.1 1.4)
+  (layers "F.Cu" "F.Mask" "F.Paste")
+  (uuid "9e02aedf-4aff-4b99-9895-a1aa7d3fdaa8"))
+(pad
+  "2"
+  smd
+  rect
+  (at 0.95 0)
+  (size 1.1 1.4)
+  (layers "F.Cu" "F.Mask" "F.Paste")
+  (uuid "b52de9e9-a755-47c0-8f34-42a251ee779e"))
+(embedded_fonts no)
+(model
+  "${KIPRJMOD}/Libs/models3d/R_0805_2012Metric.step"
+  (offset
+    (xyz 0 0 0))
+  (scale
+    (xyz 1 1 1))
+  (rotate
+    (xyz 0 0 0))))
